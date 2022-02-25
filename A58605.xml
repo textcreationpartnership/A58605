@@ -1,0 +1,616 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A mirrour of truth, of the highest concern to all sorts of people, noble and ignoble, rich or poor, soveraigne or subject</title>
+            <author>B. P. S.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1672</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 55 KB of XML-encoded text transcribed from 24 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A58605</idno>
+            <idno type="STC">Wing S12</idno>
+            <idno type="STC">ESTC R13638</idno>
+            <idno type="EEBO-CITATION">13135685</idno>
+            <idno type="OCLC">ocm 13135685</idno>
+            <idno type="VID">97932</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A58605)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 97932)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 750:14)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A mirrour of truth, of the highest concern to all sorts of people, noble and ignoble, rich or poor, soveraigne or subject</title>
+                  <author>B. P. S.</author>
+               </titleStmt>
+               <extent>[2], 45 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.],</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1672.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Signed at end: B.P.S.</note>
+                  <note>Marginal notes.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Faith.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-12</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2012-12</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:97932:1"/>
+            <pb facs="tcp:97932:1" rendition="simple:additions"/>
+            <p>A MIRROUR OF TRUTH. OF THE HIGHEST CONCERN To all ſorts of People, Noble and Ignoble, Rich or Poor, Soveraigne or Subject.</p>
+            <q>
+               <bibl>
+                  <hi>1.</hi> Rom. <hi>14.</hi>
+               </bibl> To the Greeks and to the Barbarians, to the wiſe and unwiſe I am a Deb<g ref="char:EOLhyphen"/>tor.</q>
+            <p>Printed in the Year 167<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:97932:2"/>
+            <pb n="1" facs="tcp:97932:2"/>
+            <head>A MIRROUR OF TRUTH.</head>
+            <div type="preface">
+               <head>The Preface.</head>
+               <p>IT is for the Lovers of Peace, and naked Truth, for whom I write this in a few but ſubſtantial words, declaring the grounds thereof, and no more, without the leaſt diſpute or Conteſt with any.</p>
+            </div>
+            <div type="part">
+               <head>The Truth.</head>
+               <p>KNOW therefore <hi>that as all things are Vanity of Vanities, but only to Love and ſerve God:</hi>
+                  <note place="margin">
+                     <hi>Eccl.</hi> 1.2.</note> So all Knowledge which is not to that End is blind igno<g ref="char:EOLhyphen"/>rance; And all otherwiſe ſeeming Truth plain deceit and falſhood. For there is no Truth but that which leads <hi>to God, Truth it ſelf</hi> the Beginning and End, Alpha and Omega: nor any Errour or falſhood, but what ſeduces from Him. <hi>Truth indeed is the chief of all, moſt to be loved and ſought after.</hi>
+                  <note place="margin">
+                     <hi>Eſd.</hi> 3.4.</note>
+               </p>
+               <pb n="2" facs="tcp:97932:3"/>
+               <p>
+                  <hi>All the Earth calleth for Truth and Hea<g ref="char:EOLhyphen"/>ven bleſſeth it,</hi> thus <hi>Eſdras.</hi> And let it be ſeriouſly ſought after and firmly embra<g ref="char:EOLhyphen"/>ced above all in this foundation and ground-work of all true Vertue and Per<g ref="char:EOLhyphen"/>fection, <hi>Divine Faith, without which it is impoſſible to pleaſe God.</hi>
+                  <note place="margin">
+                     <hi>Heb.</hi> 11.1.</note>
+               </p>
+               <p>Now <hi>Faith is the ground of things to be hoped for, and the evidence of things which are not ſeen.</hi>
+                  <note place="margin">If this point be rightly underſtood &amp; well obſer<g ref="char:EOLhyphen"/>ved the great ſtumbling-block to Er<g ref="char:EOLhyphen"/>rors &amp; He<g ref="char:EOLhyphen"/>reſies is ta<g ref="char:EOLhyphen"/>ken away.</note> This is St. <hi>Paul's</hi> definition of <hi>Faith,</hi> and moſt true it is. Obſerve then, that ſince Faith, a ſupernatural gift <hi>of God,</hi> is the Evidence of thoſe things that by no ſence or under<g ref="char:EOLhyphen"/>ſtanding can be perceived, but only through this free and gracious gift of <hi>God,</hi> why do we ſo much buſy our Underſtan<g ref="char:EOLhyphen"/>dings to conceive the Articles of our <hi>Faith,</hi> and believe in a manner Nothing but what we would pretend clearely to know and underſtand? All which is in<g ref="char:EOLhyphen"/>compatible with <hi>Faith</hi> which muſt have no other Operation of the Underſtanding, but ſimple ſubjection and obedience to that <hi>Divine Light.</hi> And for this reaſon He teacheth us <hi>to bring into Captivity all <g ref="char:V">Ʋ</g>nderſtanding in Obedience to Chriſt.</hi>
+                  <note place="margin">2 <hi>Cor.</hi> 10.5.</note> As if he ſhould ſay, Good People in vain it is for you to trouble your heads: diſ<g ref="char:EOLhyphen"/>cuſſion, and ſearch in theſe matters will
+<pb n="3" facs="tcp:97932:3"/>not quiet or ſatisfy you,<note place="margin">The true Rule of Faith.</note> you muſt ſimply believe, <hi>becauſe God revealeth and the Church propoſeth.</hi>
+               </p>
+               <p>That which <hi>Faith</hi> tells you is above your capacity. You may as well put the whole Ocean into a ſmall Pitt, as the leaſt of theſe high myſteries into your Underſtanding, you may as well underſtand the nature of <hi>God</hi> Himſelf as the leaſt of them. They are all alike, lit<g ref="char:EOLhyphen"/>tle and great, high and low as delivered by <hi>Faith.</hi>
+               </p>
+               <p>We may not therefore ſearch them,<note place="margin">
+                     <hi>Pro.</hi> 25.27 <hi>Exod.</hi> 19.12</note> 
+                  <hi>For who is a ſearcher of Majeſty ſhall be oppreſſed by Glory. And the Beaſt that toucheth the Mountain ſhall be ſtoned.</hi> Theſe be Edge-tool's, there is no jeaſting with them. Humane reaſon cannot reach thus high. We muſt ſimply ſubmit to <hi>the Divine Revelatian and the Churches Pro<g ref="char:EOLhyphen"/>poſition.</hi>
+               </p>
+               <p>All the Diſputation in the world is to no purpoſe in theſe matters. We muſt not contend in words, for it availeth nothing but to the ſubverſion of the Hearers.</p>
+               <p>It is not Man's Wiſdom can teach us theſe things, but the plain evi<g ref="char:EOLhyphen"/>dence of the <hi>Spirit</hi> of <hi>Truth.</hi> And for this cauſe St. <hi>Paul</hi> gave this Admoniſh<g ref="char:EOLhyphen"/>ment
+<pb n="4" facs="tcp:97932:4"/>to <hi>Timothy,</hi> ſaying, <hi>O Timothy! keep that which is committed unto thee,</hi>
+                  <note place="margin">1 <hi>Tim.</hi> 6.19</note> 
+                  <hi>and avoid profane and vain babling, and op<g ref="char:EOLhyphen"/>poſition of ſcience (falſly ſo called) which while ſome profeſs they have Erred concer<g ref="char:EOLhyphen"/>ning Faith.</hi> A Sentence worthy to be written in every Man's heart with inde<g ref="char:EOLhyphen"/>lible Characters for his direction to attain and gain the true <hi>Faith,</hi> which muſt be committed by the Church to Him, and he muſt take heed of looſing it again through vain Science (falſly ſo called) by the curious itching of which we come to breake out in <hi>Faith,</hi> and looſe our inte<g ref="char:EOLhyphen"/>grity.</p>
+               <p>How come we then to hear theſe vain bablings and oppoſitions of Science falſly ſo called, from many who Eſteem themſelves right believers, yea Maſters in <hi>Iſrael,</hi> vaunting of their <hi>light</hi> from <hi>God</hi> to know and diſcern all <hi>truth</hi> and to dive into the higheſt Myſteries of <hi>Faith;</hi> yea aſſume unto themſelves a Prerogative Royal (proper to <hi>Chriſt</hi> only and his Sub<g ref="char:EOLhyphen"/>ſtitutes and Commiſſioners endued with his Holy Spirit) to define what is <hi>Faith,</hi> and what is not. O Petty Undertakers! who receive no Rule of <hi>Faith</hi> but their own fancies which they would have all to follow. Saying this is no Article of
+<pb n="5" facs="tcp:97932:4"/>
+                  <hi>Faith.</hi> How can we believe a peece of bread or white wafor to be turned into the Body of <hi>Chriſt?</hi> I ſee not to what End there ſhould be a continual ſacrifice, ſince <hi>Chriſt</hi> hath been offered once for all? How! doth it not derogate from the ho<g ref="char:EOLhyphen"/>nour of <hi>God</hi> to pray to the Saints? what power &amp; vertue can there be in their Reliques? what vain ſuperſtition is it to uſe the ſigne of the Croſs? holy water, Beads &amp;c.? How can Man forgive ſins? How ridiculous is it to think there is a third place, or Purgatory? with infinite other ſuch like Infidel queſtions, if they knew what they aſked.</p>
+               <p>For by theſe and the like queſtions they ſeem to ſhew they believe no more then they ſee reaſon for, according to their own conceits. And ſo in <hi>Truth</hi> and very deed they have no <hi>Divine Faith</hi> at all, which is above humane reaſon and under<g ref="char:EOLhyphen"/>ſtanding, and not by it to be judged. Yea theſe prophane voices ſound ſo high, that they themſelves will rule and be Judges of that which they conſtitute the rule of <hi>Faith,</hi> I meane, the holy Scriptures, admitting and refuſing what they pleaſe, as <hi>the Machabees, the book of wiſdom, the Epiſtle of St. James,</hi> with much more. And why? becauſe they like them not and
+<pb n="6" facs="tcp:97932:5"/>ſo judge them not to be Scripture. And the like is not onely of the <hi>word of God it ſelf,</hi>
+                  <note place="margin">As God him<g ref="char:EOLhyphen"/>ſelf is inſcru<g ref="char:EOLhyphen"/>table to our underſtand<g ref="char:EOLhyphen"/>ings ſo is his holywrit. Lib. <hi>32.</hi> con<g ref="char:EOLhyphen"/>tra-Fauſtum. <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>. <hi>19.</hi>
+                  </note> but alſo of the true ſence and meaning of it, of which they will have no other Judge but their own ſenſe and meaning; ſo that we may ſay unto them what St. <hi>Auguſtine</hi> ſaid to <hi>Fauſtus,</hi> one of their own Crew, <hi>You ſeem to do that</hi> (ſaith he) <hi>which ta<g ref="char:EOLhyphen"/>keth away all Authority of Holy Scripture, making every ones Mind the Interpreter of it;</hi>
+                  <note place="margin">As God him<g ref="char:EOLhyphen"/>ſelf is the Authour of holy Scrip<g ref="char:EOLhyphen"/>ture ſo muſt <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>e be the ſole <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>terpreter <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>y His Holy <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nd infalli<g ref="char:EOLhyphen"/>ble Church.</note> 
+                  <hi>what in every place he pleaſe to make the ſenſe &amp; meaning of it. That is not to be ſubject to the Scriptures in believing, but to make the Scripture ſubject to Him. Not liking any thing becauſe it is right, written by Supream Authority, but therefore it ſeems to be right written becauſe it likes Him.</hi> Thus this Holy ſublime wit ſhews the <hi>Truth</hi> indeed.<note place="margin">
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>bſerve this <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ruth vvell.</note>
+               </p>
+               <p>If we interpret Scripture according to our own humane ſenſe and underſtanding and accordingly believe it,<note place="margin">
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e muſt <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>me to true <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>iſdom by <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Miſterious <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>orance, <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>d to be in <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>reated <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ght by <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>indneſs.</note> we thereby make our beleife humane conceit and not <hi>divine Faith,</hi> which muſt have nothing in it, but the pure Revelation of <hi>God</hi> and Propoſition of the <hi>Church</hi> guided infallibly by his <hi>holy Spirrit.</hi>
+               </p>
+               <p>To ſpeake <hi>Truth</hi> I know nothing by which People are more deceived then in taking that to be <hi>Faith</hi> which is merely
+<pb n="7" facs="tcp:97932:5"/>humane Conceipt and the Invention of Man, having nothing Divine but only a gloſs and colour of Holy Scripture, which truly examined proves but Droſs and Counterfeit as by what hath been ſaid doth manifeſtly appeare to all that are not willfully blind.</p>
+               <p>Hereupon St. <hi>Auguſtine</hi> ſaith of ſuch as Obſtinately and perverſly obtrude and thruſt their underſtandings into theſe di<g ref="char:EOLhyphen"/>vine Myſteries (to which they cannot by ſuch means reach) That inſtead of the right Worſhip of <hi>God</hi> and <hi>Truth,</hi>
+                  <note place="margin">A golden ſentence vvorthy to be vvritten in every Man's Heart. And beſides that it is Augu<g ref="char:EOLhyphen"/>ſtines it is moſt venerable for the certain Truth of it.</note> they worſhip their own Vnderſtanding and a<g ref="char:EOLhyphen"/>dore their own Errours. Theſe are his very words, <hi>Homini extra Eccleſiam Re<g ref="char:EOLhyphen"/>ligio ſua eſt cultus phantaſmatum ſuorum, et Error ſuus Deus ſuus. A Man's Religion who is out of the Church is the worſhip of his own Phanſies, and his Errour is his God.</hi> I wiſh with all my ſoul All men would conſider and ponder well with true In<g ref="char:EOLhyphen"/>differency and earneſt deſive to know the <hi>truth;</hi> this ſolid <hi>Truth</hi> of St. <hi>Auguſtine.</hi> That thoſe who are in the Church guided <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y the infallible Spirit of <hi>God</hi> may conti<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ue ſubject to it <hi>in true humility</hi> without <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y pride of their own underſtanding: <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd thoſe who are not may unbeguile themſelves and acknowledge their errour
+<pb n="8" facs="tcp:97932:6"/>ſubmitting to <hi>her</hi> and truly captivating heirunderſtandings in Obedience to <hi>Faith</hi> propoſed by, <hi>her</hi> by whoſe mouth we muſt heare it, not otherwiſe to be learned: and unleſs we do this by hearing and believing the <hi>Church,</hi> the Evangeliſt paſſeth thi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> cleare and definitive ſentence upon us that we ſhould be <hi>eſteemed as Heathens and Publicans.</hi>
+               </p>
+               <p>Neither can we ever hope to have <hi>God</hi> for our Father unleſs we take the Church for our Mother.</p>
+               <p>Much may be ſaid in this matter, And the holy Writers, Fathers, and Saints of <hi>God</hi> out of their great Zeal to this Funda<g ref="char:EOLhyphen"/>mental <hi>Truth</hi> have written abundantly thereof to ground all upon this firm <hi>Rock</hi> which ſhall never fail. Much I ſay may be ſaid to prevent Errors and declare the <hi>truth of our Faith,</hi> but this little onely which I have gathered out of them may ſuffice and will firmly eſtabliſh us, if ſin<g ref="char:EOLhyphen"/>cerely practiſed. That is once againe in <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> word to ſuppreſs the curious itching of ou<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> underſtanding from medling with theſe Myſteries of <hi>Faith</hi> with which it hath no thing to do by way of ſearching, but muſ<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſimply believe <hi>it's divine light from th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Churches propoſing through God's Revela<g ref="char:EOLhyphen"/>tion.</hi>
+               </p>
+               <pb n="9" facs="tcp:97932:6"/>
+               <p>The underſtanding therefore having no<g ref="char:EOLhyphen"/>thing to do with <hi>Faith</hi> but only ſimply to receive it, and propoſe it to the will to practice upon it: It cannot err about it; and ſo as to all Errors in matter of <hi>Eaith</hi> the underſtanding by this means is debar<g ref="char:EOLhyphen"/>red and the proud comb of it cut; and theſe Errors can creep in no other way, <hi>God</hi> keep them alwaies out, and us in the <hi>Truth</hi> and <hi>true Faith.</hi> The Myſteries whereof becauſe we cannot diſcern them in themſelves, we muſt ſimply believe them as revealed by God and propoſed by the <hi>Church</hi> without further diſcuſſion.</p>
+               <p>That we may not miſtake the true <hi>Church of God:</hi> There are certain in<g ref="char:EOLhyphen"/>fallible \Marks, Signs, Notes or Proprie<g ref="char:EOLhyphen"/>ties which be inſeparable from <hi>It,</hi> and a<g ref="char:EOLhyphen"/>gree with None but it, as natural light may evidently diſcern, if conſidered and duly weighed even by the ſimpleſt Man living, and ſupernatural light confirms them: ſo that there can be no miſtake of the true Church and conſequently of the <hi>true Faith;</hi> if we obſerve theſe viſible Notes and Marks. For none, either re<g ref="char:EOLhyphen"/>mayns Infidel or becoms Heretick, but who either does not or will not obſerve them. They are ſuch as St. <hi>Auguſtine</hi> made choice of to direct himſelf. Heare
+<pb n="10" facs="tcp:97932:7"/>what he ſaith and follow his example. <hi>Theſe worthily</hi> (ſaith he) <hi>keep me in the lap of the Church.</hi>
+                  <note place="margin">UNITY</note> THE CONSENT OF NATI<g ref="char:EOLhyphen"/>ONS. AUTHORITY BY MIRACLES BEGUN,<note place="margin">HOLY<g ref="char:EOLhyphen"/>NES.</note> NOURISHED BY HOPE, BY CHARITY INCREASED, BY ANTIQUITY MADE FIRM AND SURE.<note place="margin">SUCCES<g ref="char:EOLhyphen"/>SION</note> THERE KEEPS ME THE SUC<g ref="char:EOLhyphen"/>CESSION OF PRIESTS FROM THE VERY SEE OF PETER THE APOSTLE <hi>(to whom our Lord after his Reſurection committed the feeding of his Sheep)</hi> EVEN TO THIS BISHOP THAT NOW IS. <hi>There</hi> KEEPS ME FINALLY THE VERY NAME OF CATHOLICK,<note place="margin">CATHO<g ref="char:EOLhyphen"/>LICK.</note> 
+                  <hi>which not without cauſe amongſt ſo many Hereſies, the true Church alone hath obtained.</hi> You perceive St. <hi>Auguſtine</hi> ſtuck faſt to the <hi>Churches Faith</hi> after his being an Heretick, and all his bickering with Errors through the Motive of theſe infallible Marks which are proper to <hi>it</hi> alone: and relied not on his own Judgment or wit (as great and as ſtrong as it was the like to which per<g ref="char:EOLhyphen"/>chance was never or ever will be) which he found to be too ſhallow to dive into theſe high <hi>Myſteries of Faith.</hi>
+               </p>
+               <p>If any one think his wit deeper and ſounder then this great Saint's was: And that theſe reaſons were not ſufficient Mo<g ref="char:EOLhyphen"/>tives,
+<pb n="11" facs="tcp:97932:7"/>I will not conteſt with his over-ween<g ref="char:EOLhyphen"/>ed conceipt of himſelf, but let him runn headlong whither the ſpirit, or rather ſprite of pride will drive him.</p>
+               <p>I know as the Apoſtle tells me, Every Man hath not <hi>Faith, and that there muſt be Hereſies.</hi> But woe to them that are in<g ref="char:EOLhyphen"/>fected with them. <hi>They are blind and obſtinate and Condemned by their own Judgments.</hi> There is no End of diſputing with them, and ſo I leave them and come to propoſe thoſe Marks which may ſerve any well minded Man to finde out the true <hi>Church, Mother of all true Faith and Re<g ref="char:EOLhyphen"/>ligion.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>Theſe are the Marks or Signes of the true Church of Chriſt.</head>
+               <p>
+                  <hi>THe Church of Chriſt muſt be One.</hi>
+                  <note place="margin">ONE</note> That the true Church of Chriſt and the Religion profeſſed by <hi>it,</hi> be but <hi>One</hi> is moſt neceſſary, for ſince the Divine Providence governs the <hi>Church,</hi> we muſt needs grant that the Government thereof is the beſt of all being the chiefe of all, as ordered by him by whom Kings raign and govern. And the beſt Government of a Multitude is Monarchical. That is
+<pb n="12" facs="tcp:97932:8"/>when One Head and Chief governs the whole multitude. This is manifeſt by the End and Scope of Government, being the Peace &amp; <hi>
+                     <g ref="char:V">Ʋ</g>nion</hi> of the Subjects, which is moſt excellently enjoyed when <hi>One</hi> go<g ref="char:EOLhyphen"/>verns the whole <hi>Church;</hi> for by that means all Occaſion of Schiſme is taken a<g ref="char:EOLhyphen"/>way.</p>
+               <p>Moreover the true Militant Church (which <hi>is a Company of Faithful Believers under One chief Paſtour</hi>) is ſo much the Perfecter by how much more like it is to the Triumphant,<note place="margin">What the Church is.</note> and the Triumphant hath but One governor, the Lord God himſelf. So the Militant <hi>Church</hi> hath but one head and Chief, God's Vicegerent and Deputy.</p>
+               <p>In the Old Law there was but one High Biſhop.<note place="margin">Oſee. <hi>2.</hi>
+                  </note> 
+                  <hi>Cangregabuntur Filii Judae &amp; filii Iſrael pariter &amp; ponent ſibimet Caput unum. The Children of Judah, and the Children of Iſrael likewiſe ſhall be ga<g ref="char:EOLhyphen"/>thered together and they ſhall Place one head over them.</hi> Even ſo in the New Law there muſt be but one Head and Chief, <hi>&amp; fiet unum Ovile &amp; <g ref="char:V">Ʋ</g>nus Paſtor.</hi>
+                  <note place="margin">Joh. <hi>10.</hi>
+                  </note> 
+                  <hi>And there ſhall be made one Sheepfold and One Paſtor.</hi>
+               </p>
+               <p>Neither can this be underſtood of Chriſt and this time only. For <hi>Chriſt</hi> after his Aſcenſion into Heaven would not leave
+<pb n="13" facs="tcp:97932:8"/>the Church without <hi>a Guide,</hi>
+                  <note place="margin">Joh. <hi>12.</hi>
+                  </note> 
+                  <hi>Paſtor and Head;</hi> His Flock without a Shepheard; And therefore naming <hi>Peter</hi> his <hi>Vicar,</hi> par<g ref="char:EOLhyphen"/>ticularly charged him to <hi>Feed his Flock,</hi> and would have him to <hi>Confirm</hi> his Bre<g ref="char:EOLhyphen"/>thren as Head: Which Chriſt very plain<g ref="char:EOLhyphen"/>ly expreſſed ſaying,<note place="margin">Luke. <hi>21.</hi>
+                  </note> 
+                  <hi>Tu es Petrus &amp; ſuper hanc Petram aedificabo Eccleſiam meam, &amp; portae inferi non prevalebunt adverſus eam. Thou art Peter and upon this Rock will I build my Church, and the Gates of Hell ſhall not prevail againſt it.</hi> For no power in<g ref="char:EOLhyphen"/>fernal, either by Tyrants, Hereticks or other inſtruments of Satan could ever ex<g ref="char:EOLhyphen"/>tinguiſh or overthrow this Church built upon <hi>Peter</hi> and his Succeſſors. And <hi>to thee (ſaith ovr Saviour) will I give the Keys of the Kingdom of Heaven &amp;c.</hi>
+               </p>
+               <p>Neither may it be replyed, this Power and Dignity was granted to <hi>Peter</hi> only and not to this ſucceſſors: For <hi>Chriſt</hi> inſtituted a <hi>Church</hi> to continue for ever, always to be built and Augmented, and muſt therefore have allways a Head or Foundation upon which it may be built. Chriſt ſurely would not have his Church now in a worſe Con<g ref="char:EOLhyphen"/>dition then at that time, ſince the govern<g ref="char:EOLhyphen"/>ment is allwaies neceſſary. And as <hi>Peter</hi> was then <hi>Chriſt's</hi> Vicar and Paſtour of his whole <hi>Church:</hi> So muſt his Succeſſors neceſ<g ref="char:EOLhyphen"/>ſarily
+<pb n="14" facs="tcp:97932:9"/>have now the ſame Power and Au<g ref="char:EOLhyphen"/>thority over the true <hi>Church</hi> throughout the whole world, from which we muſt re<g ref="char:EOLhyphen"/>ceive the true <hi>Faith.</hi> And whoſoever diſ<g ref="char:EOLhyphen"/>ſents and breaks from the Union with this <hi>Church,</hi> and declines the Doctrine there<g ref="char:EOLhyphen"/>of, forſakes the <hi>Truth</hi> of <hi>Chriſt,</hi> leaves the royal high way, and runns aſtray i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> dangerous paths of his own Invention.</p>
+               <p>Hence ariſeth the great diſunion and Confuſion amongſt Hereticks, and their diviſion into ſundry ſects, and Various Opinions, by reaſon of their uncertain Rule of Faith, which is their own Under<g ref="char:EOLhyphen"/>ſtanding, and Privat Spirit. Whereas the Rule amongſt Catholicks and true Believers is moſt certain and ſolid (to wi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> the <hi>Judgment of the Church</hi>) they having nothing of their own in it. And there<g ref="char:EOLhyphen"/>fore daily experience ſhews and teaches us (our adverſaries being not able to deny it) that thoſe of the <hi>true Church</hi> thought of divers Countrys and Kinghoms ſpread through out the whole world in all times and places yet all agred in the ſame Doctrine neceſſary to Salvation, as in One Sacrifice, One Uniform number and Adminiſtra<g ref="char:EOLhyphen"/>tion of Sacraments &amp;c.</p>
+               <p>The Spouſe of Chriſt the Holy Church hath but One and the ſame <hi>Faith</hi> over al<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb n="15" facs="tcp:97932:9"/>the world in all times and Places.</p>
+               <p>It is worthy obſervation and the like can never be ſhewn out of the true <hi>Church</hi> to ſee the Unaminous concord and a<g ref="char:EOLhyphen"/>greement betwixt the holy Doctors of the Church in <hi>Faith</hi> and Doctrin though they taught in divers Ages and Places.<note place="margin">St. Gregory. S. Auguſtin. St. Ambroſe. St. Jerom.</note> St. <hi>Auguſtin</hi> only and St. <hi>Jerom</hi> ſaw each other and were Contemporary. And on the Contrary ſide amongſt thoſe out of the Church, what Diſcord and Babylonical Confuſion, every One fol<g ref="char:EOLhyphen"/>lowing his own ſpirit,<note place="margin">Luther. Calvin. Beza. Zuinglius.</note> ſo many heads ſo many Hereſies. They are carried on head<g ref="char:EOLhyphen"/>long with Giddyneſs, they yield to no<g ref="char:EOLhyphen"/>thing but Error.</p>
+               <p>St. <hi>Jude</hi> deſcribing in his Epiſtle ſuch miſled People and Hereticks ſaith:<note place="margin">Jude. <hi>10.</hi>
+                  </note> 
+                  <hi>But theſe blaſpheam the things they know not, and whatſoever they naturally know as beaſts without reaſon in thoſe things they Corrupt themſelves.</hi> And no marvel; for as there is but One way to <hi>Truth,</hi> ſo there are many ways to runn into Error and deceit. Let us therefore cleave cloſe to this Rock of <hi>
+                     <g ref="char:V">Ʋ</g>nity;</hi> let us not forſake this One <hi>Church</hi> which hath no diviſion. It is like our <hi>Saviours</hi> garment it muſt not be divided.</p>
+               <p>Our dear <hi>Saviour</hi> prayed for his <hi>Church</hi>
+                  <pb n="16" facs="tcp:97932:10"/>that it might be <hi>One</hi> ſaying.<note place="margin">Jo: <hi>17.</hi>
+                  </note> 
+                  <hi>Father I Pray not that thou wouldeſt take them out of this world, but that thou keep them from Evil. They are not of the world as I am not of the world; Sanctify them with the Truth, Thy Word is Truth. I ſent them into the world, and for their ſakes I ſancti<g ref="char:EOLhyphen"/>fy my ſelf, that theſe alſo may be ſancti<g ref="char:EOLhyphen"/>fied through the Truth. I pray not for theſe alone, but for them alſo who ſhall believe in me through their word, that they alſo may be One in <g ref="char:V">Ʋ</g>s, That the world may believe that thou haſt ſent me.</hi> This Prayer of our <hi>Saviours</hi> was heard and granted, and therefore we muſt be <hi>On<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> in <hi>Faith</hi> if we will be of <hi>his Church.</hi> And obſerve <hi>He</hi> prayed not only for his onely then preſent diſciples, but for them alſo who ſhould believe through their <hi>prea<g ref="char:EOLhyphen"/>ching,</hi> their ſucceſſors even to the end of the world, that they ſhould continue ſtill <hi>One</hi> without Diviſion.</p>
+               <p>And conſider well how our Saviour concluded his Prayer with this ſtrong motive of Unity to belief. Even <hi>(ſaith he) that they may be One in us, that the world may beleive that Thou haſt ſent me.</hi>
+               </p>
+               <p>You ſee our Saviours reaſon why they ſhould be <hi>One</hi> is, that <hi>he</hi> may be beleived to be ſent. This <hi>
+                     <g ref="char:V">Ʋ</g>nity</hi> therefore is an
+<pb n="17" facs="tcp:97932:10"/>unanſwerable motive to the <hi>true Religion,</hi> and an aſſured infallible mark thereof. Where therefore <hi>
+                     <g ref="char:V">Ʋ</g>nity</hi> is not, there is no <hi>true Religion:</hi> And where it is we may there ſurely truſt our ſouls, and rely on that <hi>Faith.</hi> And as we are <hi>One in Faith</hi> ſo ſhall we be in <hi>Glory:</hi> for ſuch was our <hi>Savionrs</hi> Prayer in the ſame place ſaying: <hi>Father, ſuch as thou haſt given me my will is that where I am they may be alſo with me, that the may ſee my Glory which thou haſt given me. God</hi> therefore grant that through this <hi>
+                     <g ref="char:V">Ʋ</g>nity</hi> we may come to his Glory: to which We cannot arrive but by Holineſs. And therefore <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </p>
+            </div>
+            <div type="part">
+               <head>The true Church as it is One ſo muſt it alſo be holy.</head>
+               <p>ANd this is another Mark as evident,<note place="margin">Holyneſs.</note> infallible, and certain as the for<g ref="char:EOLhyphen"/>mer (to wit) <hi>Holineſs,</hi> which cannot be found out of the <hi>true Church.</hi> For the holy Ghoſt hath no influence but upon the members of the true Church: by their Fruits we ſhall know them. I mean not but there are wicked men &amp; miſdemean<g ref="char:EOLhyphen"/>ors amongſt the true Beleivers, yet ſo that there are many alſo moſt holy and
+<pb n="18" facs="tcp:97932:11"/>vertuous, which is ſufficient to ſhew the Holyneſs of the Church together with the Doctrin thereof which is alwaies pure and holy, tending to Vertue. View and Conſider the Tenets and practiſes of Both, true and falſe, and then judge.</p>
+            </div>
+            <div type="part">
+               <head>The Religion which is true and holy, is that</head>
+               <p>
+                  <hi>WHich hath</hi> Calendars full of appro<g ref="char:EOLhyphen"/>ved Known Saints of all Ages and Profeſſions?<note place="margin">A kallendar of <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> approv<g ref="char:EOLhyphen"/>ed known Saints.</note> whoſe Sanctity none dare or can juſtly oppoſe.</p>
+               <p>
+                  <hi>That which</hi> hath wrought evident and true miracles in all Ages from the be<g ref="char:EOLhyphen"/>ginning till this hour,<note place="margin">True Mi<g ref="char:EOLhyphen"/>racles.</note> and ſhall work upon occaſion to the Conſummation of the Saints.</p>
+               <p>
+                  <hi>That which</hi> hath converted all nations to the <hi>Faith of Chriſt</hi> from Judaiſme,<note place="margin">All Nations Converted &amp;c.</note> Idolatry, Heatheniſme &amp;c. and whoſe teachers and Profeſſors have been of known ſanctity and holy Life. To name One for all, St. <hi>Auguſtin our Apoſtle</hi> of the holy Order of St. <hi>Bennet</hi> who con<g ref="char:EOLhyphen"/>verted England to the <hi>Faith of Chriſt</hi> from blind Idolatry, and Heatheniſme: Sent by St. <hi>Gregory</hi> the great then Pope
+<pb n="19" facs="tcp:97932:11"/>of <hi>Rome</hi> of the ſame holy Order.</p>
+               <p>
+                  <hi>That which</hi> hath built all the Churches,<note place="margin">Churches. Monaſteries. Nunneries. Hoſpitals. built &amp;c.</note> Monaſteries, Nunneries, Colledges, Hoſ<g ref="char:EOLhyphen"/>pitals &amp;c. in Chriſtandom, endowed them with rents, inſtituted the Univer<g ref="char:EOLhyphen"/>ſities, diſtinguiſhed the Multitude into Pariſhes, proportioned the Tyths, an<g ref="char:EOLhyphen"/>nexed the glebe Land, ordayned the Biſhoppricks, lymitted the Dioceſſes and decree'd the Eccleſiaſtical Lawes ſo full of learning, and Piety, that they are now all good and learned Mens Studyes: be<g ref="char:EOLhyphen"/>ſides infinite other good Works of all ſorts.</p>
+               <p>
+                  <hi>That which</hi> from the Flower of her In<g ref="char:EOLhyphen"/>fancy (the <hi>Apoſtles</hi> themſelves being ſuch) ever had, ſtill hath,<note place="margin">Religious Orders.</note> and ever ſhall have infi<g ref="char:EOLhyphen"/>nit Multitudes of Beleivers of either ſex profeſſing <hi>Poverty, Chaſtity, and Obe<g ref="char:EOLhyphen"/>dience;</hi> the three cheif Evangelical Coun<g ref="char:EOLhyphen"/>ſels, ſo highly commended and practiſed by Antiquity not onely as Sonveraigne divine helps to perfection, but alſo as Beautiful Ornaments to <hi>Chriſts Church,</hi> rayſing the Profeſſors to a ſupream de<g ref="char:EOLhyphen"/>gree of <hi>Grace</hi> and glory.<note place="margin">Witneſſed. and ſealed with the Blood of ho<g ref="char:EOLhyphen"/>ly Martyrs and Con<g ref="char:EOLhyphen"/>firmed by Miracles.</note>
+               </p>
+               <p>
+                  <hi>That which</hi> hath been teſtified, and ſealed with the blood, and ſufferings of ſuch Martyrs and Confeſſors as are allow<g ref="char:EOLhyphen"/>ed by the adverſaries thereof, and all
+<pb n="20" facs="tcp:97932:12"/>Points and Articles of her holy Doctrine confirmed by moſt authentical and ap<g ref="char:EOLhyphen"/>proved Miracles (which no other Con<g ref="char:EOLhyphen"/>trary Religion ever was, or ſhall be able to do) ſufficient to convince the whole World if they were not extreamly blind and perverſly Obſtinate.</p>
+               <p>
+                  <hi>That which</hi> hath inſtituted the Feaſts,<note place="margin">Faſtingdays, and feaſts. Holy Rites. and whole<g ref="char:EOLhyphen"/>ſom Ceremonys.</note> Faſting dayes, and all good Ceremonies, and Obſervations uſed through out the the whole <hi>Church.</hi> As Chriſtmas, Eaſter, Aſcenſion, Whitſontide, Corpus Chriſti: the Vigils and Feaſts of the Apoſtles, and other Saints, the faſt of Lent, Emberdays, Abſtinence from fleſh On Frydaies, and Saturdads, very wholſome, &amp; commodious even to Common Wealths, and private Families. Rites likewiſe, and ſacred Forms and Ceremonies obſerved in adminiſtring the Sacraments, Conſecrations, Corona<g ref="char:EOLhyphen"/>tions, inſtalments and all other ſolemni<g ref="char:EOLhyphen"/>ties which carry with them Veneration, State, and decency.</p>
+               <p>
+                  <hi>That which</hi> profeſſeth not the large,<note place="margin">The Narrow way of Mor<g ref="char:EOLhyphen"/>ification and Penance.</note> and Broadway but the ſtraight, and nar<g ref="char:EOLhyphen"/>row, ſuch as the holy <hi>writ</hi> affirms to be the way to Heaven, as <hi>Annual</hi> Confeſſion to a Prieſt, Pennance, Reſtitution, Sa<g ref="char:EOLhyphen"/>tisfaction, performance of Vows, Mor<g ref="char:EOLhyphen"/>tification of the old Man, and the like
+<pb n="21" facs="tcp:97932:12"/>injunctions obſerved by none but thoſe of the <hi>true Religion,</hi> Libertiniſme being the ſole Profeſſion, and the very ſoul of all Sectaries in One kind, or Other.</p>
+               <p>
+                  <hi>That</hi> unto whoſe ſociety whoſoever truly enters,<note place="margin">Change of Manners upon Con<g ref="char:EOLhyphen"/>verſion.</note> lives forthwith in more feare, and <hi>love of God,</hi> hatred to ſin, and changes his former life into a better.</p>
+               <p>
+                  <hi>That which</hi> moſt hath,<note place="margin">The moſt learned holy and able Men.</note> and in former Ages ever had, and ever ſhall have the moſt Famous Men for wit, Judgment, reading, writing, true ſchollerſhip, and ſolid Vertue (Qualityes of all Other moſt likely to diſcern and abandon er<g ref="char:EOLhyphen"/>rors) to her Teachers, Doctors, and inſtructers.</p>
+               <p>
+                  <hi>That which</hi> hath excelled in ſpiritual<g ref="char:EOLhyphen"/>lity,<note place="margin">True ſpiri<g ref="char:EOLhyphen"/>tuallity.</note> and whoſe beleivers have interiourly Converſed with <hi>God</hi> in a moſt experi<g ref="char:EOLhyphen"/>mental and Ineffable way, and thereby ſatisfied their Propenſion (not poſſi<g ref="char:EOLhyphen"/>ble to be ſatisfied out of the <hi>true Faith and Religion</hi>) and <hi>have choſen the beſt part never to be taken from them.</hi> And this is moſt evident by many Admirable Books written by the Practiſers of this ſpirituality and profeſſors of this <hi>only true and holy Religion.</hi>
+               </p>
+               <p>
+                  <hi>That whoſe</hi> publick Church-ſervice is performed,<note place="margin">Publick Church Service.</note> and executed with that
+<pb n="22" facs="tcp:97932:13"/>Reverence, Venerable gravity &amp; Majeſty. And the ſeveral parts, and ceremonies ſo admirably and aptly compoſed, and or<g ref="char:EOLhyphen"/>dered for annual Commemorations, and repreſenting of our <hi>Saviours Incarnation, Birth, life, Paſſion, Burial, Reſurection, Aſ<g ref="char:EOLhyphen"/>cenſion, Coming af the Holy Ghoſt, the inſti<g ref="char:EOLhyphen"/>tution of the bleſſed Sacrament of the Al<g ref="char:EOLhyphen"/>tar,</hi> and other paſſages aſwel of <hi>Chriſt</hi> our head, as of his Members the <hi>Saints.</hi>
+               </p>
+               <p>
+                  <hi>That whoſe</hi> Secular,<note place="margin">The ſingle <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ife of the Clergy Secu<g ref="char:EOLhyphen"/>lar, and Re<g ref="char:EOLhyphen"/>gular.</note> and regular Cler<g ref="char:EOLhyphen"/>gy live without wives, free from Care of providing for Wife and Children, and the ſecond ſort no way diſtracted with Affairs, and incumbrances of the World, but Cloiſtred (unles ſome of the more Able and Vertuous be through ſpecial want, and to <hi>Gods</hi> greater Glory called to Epiſcopal Sees and other employments in the Church) paſs their whole time in Prayer, watching, Faſting, Continual ſtu<g ref="char:EOLhyphen"/>dy of Scriptures, with daily Conferences for the full and perfect Underſtanding of them. Add to this that all their Prieſts, and beneficed Clergy are bound to ſay every day an Office in their <hi>Breviary.</hi>
+                  <note place="margin">
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ound to ſay <gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>e Breviary</note> A Book of that Excellency that none but the <hi>Spirit of God</hi> could have com<g ref="char:EOLhyphen"/>poſed it, and which alone is ſufficient to make them Devout, and learned.</p>
+               <pb n="23" facs="tcp:97932:13"/>
+               <p>
+                  <hi>That</hi> finally (though there be many other motives of Holineſs in this true Church) which by reaſon of her Holy Doctrin,<note place="margin">Royal, Loyal and divine Obedience &amp; ſubjection to all Power Civil and Spiritual.</note> and Ordinances keeps all ſub<g ref="char:EOLhyphen"/>jects in due allegiance to their Tempo<g ref="char:EOLhyphen"/>ral Kings and Princes, and to all <hi>power ſpiritually</hi> conſtituted over them. And hath evermore bleſſed. Popes, Biſh<g ref="char:EOLhyphen"/>ops, Abbots, Superiors, Kings and Princes, Magiſtrates and Subjects with Conſtant and permanent Peace, true Hap<g ref="char:EOLhyphen"/>pineſs, Proſperity and Victorys, true Glory temporal, and Eternal together with un<g ref="char:EOLhyphen"/>feigned Love One to another, neighbour<g ref="char:EOLhyphen"/>ly and juſt Commerce. And in a word ſo that all things go on with Order, Love Juſtice, and Peace.</p>
+               <p>
+                  <hi>Now as the true Church and Reli<g ref="char:EOLhyphen"/>gion hath theſe glorious fruits and evident Effects: So have all Hereſies and Sects the clear Contrary Foul and monſtrous Fruits and Effects: And moſt apparently abominable to all who are not wilfully blind, and per<g ref="char:EOLhyphen"/>verſly Obſtinate.</hi>
+               </p>
+               <p>
+                  <hi>Conſider then on the Contrary ſide how
+<pb n="24" facs="tcp:97932:14"/>the Falſe Church, and Religion is</hi>
+               </p>
+               <p>
+                  <hi>That which</hi> is void of Saints,<note place="margin">A Calendar of Hipocriti<g ref="char:EOLhyphen"/>cal, ridicul<g ref="char:EOLhyphen"/>ous Saints: Foxes Acts and monu<g ref="char:EOLhyphen"/>ments ſuffici<g ref="char:EOLhyphen"/>ently witneſs</note> and hath no other but vile hypocrites ſuch as after ſome time even thoſe of the ſame pro<g ref="char:EOLhyphen"/>feſſion are aſhamed off, and do loath their very naming and that with juſt rea<g ref="char:EOLhyphen"/>ſon. The Crafty Fox ſhews it fully in his Acts and Monuments by which he hoped to have erected the Glory of his braynſick Martyrs, and doting Confeſ<g ref="char:EOLhyphen"/>ſors.</p>
+               <p>
+                  <hi>That</hi> by which and whoſe Profeſſors never any Miracle was Wrought or ever can be.<note place="margin">No Miracles</note>
+               </p>
+               <p>
+                  <hi>That</hi> which hath no religious Orders,<note place="margin">No religious Orders.</note> or peoplei profeſſing a peculiar perfect ſtate of life through <hi>Poverty, Chaſtity</hi> and <hi>Obedience.</hi>
+               </p>
+               <p>
+                  <hi>That which</hi> is deſtitute of all wholſome Laws for the Direction of the Miniſters and People towards <hi>God and his holy</hi> Service.<note place="margin">No Canon Laws.</note>
+               </p>
+               <p>
+                  <hi>That which</hi> profeſſeth the large,<note place="margin">Libertini<g ref="char:EOLhyphen"/>ſine.</note> and broad way leading to Perdition, granting Libertiniſme to the higheſt degree of wickedneſs in One Kind or Other to all Its followers.</p>
+               <p>
+                  <hi>That</hi> into which whoſoever enters for<g ref="char:EOLhyphen"/>ſaking the true,<note place="margin">Wickedneſs of life.</note> begins preſently to leave all goodneſs and becomes an outcaſt and
+<pb n="25" facs="tcp:97932:14"/>Scumm of the earth as to all wickedneſs and prophaneſs.</p>
+               <p>
+                  <hi>That which</hi> enjoyes no true Spirituality <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ut brainſick Phancy,<note place="margin">No ſolid true Spirituality.</note> as being void of all true Humility and Mortification, the only ſound groundwork and foundation of all true Spirituallity and interior cor<g ref="char:EOLhyphen"/>reſpondence with <hi>God;</hi> and this appears moſt evidently by the fruits.<note place="margin">The divine Book of the Following of Chriſt.</note> For never any ſound ſpiritual Book hath been writ<g ref="char:EOLhyphen"/>ten by them, but excellent Ones written by thoſe of the true Religion corrupted by them. <hi>They have the Lord indeed much in their Mouth but their hearts are farr from him.</hi>
+                  <note place="margin">
+                     <hi>Mat.</hi> 19.8.</note> I wiſh therefore with all my Soul that all ſuch as have an <hi>Interiour Propenſion</hi> would ſeriouſly ponder this Motive (if they deſire to ſatisfy ſuch their <hi>Interiour Propenſion</hi> as they muſt needs be inclined to do) thereby to diſcern,<note place="margin">A good ad<g ref="char:EOLhyphen"/>vice.</note> and ſhun theſe Sectaryes, and to embo<g ref="char:EOLhyphen"/>ſome themſelves in the <hi>true Catholick Church,</hi> as they love the real and other<g ref="char:EOLhyphen"/>wiſe impoſſible true ſatisfaction of their <hi>Propenſion.</hi> And they ſhall receive and experience a more beautifying kind of ſpirituality then ever they have done, or could do out of the <hi>true Church.</hi> Re<g ref="char:EOLhyphen"/>member this again and again you who are called Puritans, and pretend to be
+<pb n="26" facs="tcp:97932:15"/>ſpiritual, and come the right way home to your ſelves.</p>
+               <p>
+                  <hi>That</hi> whoſe publick and common ſer<g ref="char:EOLhyphen"/>vice is without all Ceremony,<note place="margin">Publick ſer<g ref="char:EOLhyphen"/>vice.</note> and Ma<g ref="char:EOLhyphen"/>jeſty, no Commemorations of the myſte<g ref="char:EOLhyphen"/>ries of our faith, no Ceremonies in ad<g ref="char:EOLhyphen"/>miniſtration of the Sacraments, or much more truly no Sacraments at all, [and moſt of all to be noted] no true real propitious Sacrifice, no honour to the Saints.</p>
+               <p>
+                  <hi>That</hi> laſtly (though much more may be ſaid of the wickedneſs thereof) which by reaſon of its wicked Obſtinacy and libertinſme brings all the profeſſors there<g ref="char:EOLhyphen"/>of to diſobedience,<note place="margin">Rebellion, and diſobe<g ref="char:EOLhyphen"/>dience.</note> and Rebellion to their Princes, and Superiors, takes away all neighbourly Love and juſt dealing one with another, and hereby brings Ruin and Confuſion upon all Common<g ref="char:EOLhyphen"/>wealths, yea Kingdoms and Eccleſiaſtical power where ſuch ſway, and domineer. To all which give evident Teſtimony, the late bleeding Experience of our own miſerable Country, and the General Hiſtory of former Ages. Read Monar<g ref="char:EOLhyphen"/>chomachia or Jeruſalem and Babel, a Book ſo called printed in <hi>London</hi> 1653. and then give <hi>Credit.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <pb n="27" facs="tcp:97932:15"/>
+               <head>The Church of God as it is One, and Holy, ſo muſt it be Catholick.</head>
+               <p>
+                  <hi>THe true Church</hi> muſt be <hi>Catholick</hi> that is Univerſal;<note place="margin">Catholick.</note> ſprend over the whole world, ſince by it all muſt be ſaved. The ſound of it muſt Come to all Mens Eares of what Nation,<note place="margin">
+                     <hi>Rom.</hi> 10.17.</note> and Country ſoever. <hi>For Faith coms by hea<g ref="char:EOLhyphen"/>ring.</hi> And therefore beginning at <hi>Jeru<g ref="char:EOLhyphen"/>ſalem,</hi> river-like through the length of her Courſe hath ever more encreaſed, and ſpread it ſelf from time to time even to this hower, and ſhall do for ever till it poure it ſelf forth into the triumphant: as the records of all Nations, and Ages, and the approbations of 18. General Councils (the higheſt Conſiſtories upon Earth, and Oracles of the greateſt in<g ref="char:EOLhyphen"/>fallibility: as being the ſentence of all the moſt learned in the Chriſtian world, and aſſiſted by the holy Ghoſt) bear e<g ref="char:EOLhyphen"/>vident witneſs. And this is ſo palpable and Viſible that He muſt be moſt blind, deaf, void of all ſenſe, and a ſtupid block who cannot diſcern it. Look upon the whole world at this preſent and behold if this <hi>One holy Church be not Catholick,</hi>
+                  <pb n="28" facs="tcp:97932:16"/>that is ſpread over the whole world a being in <hi>Italy, Spain, France, Germany Poland, Portugal, China,</hi> the eaſt and weſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>Indyes</hi> and infinite Other Places of the World which are governed by no other Religion but this; and all conſent i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> One and the ſame. Now as St. <hi>Augeſti<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> ſaid very well, <hi>if any thing be done by the whole Church, to call that in Queſtion is inſolent Madneſs.</hi> What Madneſs i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> it then in this Iland of <hi>England,</hi> and <hi>Scotland</hi> (I muſt not include <hi>Ireland</hi>) a little corner of Europe to queſtion no<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> only ſome things done, but the very Fun<g ref="char:EOLhyphen"/>damental Religion of the whole world beſides. O inſolent Madneſs to be thus ſingular and peculiar! which muſt bring upon our Country ſingular and peculiar Miſery before we can Enjoy the bleſſing and true happineſs which always wait on the true <hi>Catholick Faith.</hi> This <hi>Note</hi> &amp; <hi>Mark</hi> is ſo proper to the Church that no heretical Congregation, ſect, or Compa<g ref="char:EOLhyphen"/>ny, could ever obtain it, though they have endeavoured much for it, and at this preſent do, but fail of their enterpriſe. Wherefore what St. <hi>Auguſtin</hi> ſaid of old we may now with <hi>truth</hi> ſay, and it will ever with Truth be ſaid, <hi>If any ask to go to the Catholick Church they dare not
+<pb n="29" facs="tcp:97932:16"/>ſhew their Conventicles, Congregations, Churches, or houſes. And therefore (ſaith be) the very Name of Catholick, which not without cauſe the only true Church hath obtained, keeps me in her Boſome.</hi> This Name <hi>Catholick</hi> no hereſy could ever obtain, let them labour never ſo much for it: and Juſtly. For how can they be called ſo, ſince their Congregations or Churches, are neither <hi>One,</hi> or <hi>holy:</hi> And therefore cannot be <hi>Catholick.</hi> True it is Hereſies may be ſpread over the world &amp; then you may call them Epidemical, that is a general Plague, but not <hi>Catholick</hi> a general <hi>union, holineſs,</hi> or <hi>Bleſſing.</hi> No no: their names are very proper for them which they aſſume, and ſtile themſelves withal, and are ſo known, and called by Others to wit <hi>Lutherans, Calviniſts, Pro<g ref="char:EOLhyphen"/>teſtants, Puritans, Browniſts, Anabaptiſts, Armenians, Socinians, Independants, black and white,</hi> with an infinite rable beſides. <hi>Lutherans,</hi> you ſhall find few out of <hi>Germany, Swedland,</hi> and <hi>Denmark, Calviniſts</hi> in <hi>Geneva,</hi> ſome places of <hi>France,</hi> &amp; <hi>Scotland, England</hi> is not whol<g ref="char:EOLhyphen"/>ly ſubject to them. <hi>Prelatical Proteſtants</hi> no where but in <hi>England. Browniſts, Ana<g ref="char:EOLhyphen"/>baptiſts, Armenians, Socinians &amp;c.</hi> are <hi>individui vagi,</hi> wanderers, ſculking in
+<pb n="30" facs="tcp:97932:17"/>every Corner: but the ſink of all and Con<g ref="char:EOLhyphen"/>fuſion of Babel is at Amſterdam in <hi>Hol<g ref="char:EOLhyphen"/>land.</hi> Judge then if there be any Reli<g ref="char:EOLhyphen"/>gion <hi>Catholick but One true and Holy<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> And hereupon <hi>Cyrillus Jeroſolomitan<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </hi> ſaid very Learnedly, and to the purpoſe <hi>As the name of Chriſtian doth diſtinguiſh the Church from Jews, Gentiles, and Hea<g ref="char:EOLhyphen"/>thens: ſo the name Catholick from falſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Prophets and peculiar Sects who glory under the name of Chriſt, and belong not to him</hi> And to this purpoſe ſaid <hi>Pacianus, my Name is Chriſtian, my Sirname Catholick<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> This Name therefore is moſt deſervedly put into the Creed of the Apoſtles a<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> diſtinguiſhing from all Sects, and Here<g ref="char:EOLhyphen"/>ticks, and moſt proper to the <hi>true Church</hi> Only. None therefore can miſs of the <hi>true Church</hi> who follow the <hi>Catholick<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> The general name will moſt certainly inform you, her very adverſaries being Judges.<note place="margin">
+                     <hi>Luk.</hi> 19.22.</note> 
+                  <hi>Out of thy mouth I Judge thee O wicked Servant.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>The true Church muſt be One, holy, Catholick, and Conſequently Apoſ<g ref="char:EOLhyphen"/>tolick.</head>
+               <p>THe Fourth and laſt mark is <hi>Apoſto<g ref="char:EOLhyphen"/>lick,</hi>
+                  <note place="margin">Apoſtolick.</note> ſhewing the <hi>true Church and
+<pb n="31" facs="tcp:97932:17"/>Religion</hi> (not taken up at the ſecond hand as many do now a days) to be derived from <hi>Chriſt,</hi> and his <hi>Apoſtles,</hi> and ſo to us, as an inheritance from our Anceſtors by a continual ſucceſſion of Biſhops from the Chayr of <hi>Peter</hi> to this preſent Pope, and ſo to continue without <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ayling: <hi>every One holding <g ref="char:V">Ʋ</g>nion with his Prede<g ref="char:EOLhyphen"/>ceſſors,</hi>
+                  <note place="margin">True Religi<g ref="char:EOLhyphen"/>on no Inve<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:EOLunhyphen"/>tion of Ma<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </note> 
+                  <hi>and keeping ſtill the ſame Profeſſi<g ref="char:EOLhyphen"/>on of Faith ſo viſibly, and apparently that it is like a City upon a Mountain, or a Candle on a Candleſtick to give light to all in the houſe of God.</hi> Whereby it is manifeſt that it is not the <hi>Invention of Man,</hi> it never being contrary to it ſelf in Doctrin, but allwaies running in the ſame Current of Apoſtolical Tradition, and through this united ſtrength hath out laſt<g ref="char:EOLhyphen"/>ed many hundreds of Hereſies, which though manifeſtly divided in themſelves, did ever joyne hands to overthrow this <hi>One holy Catholick Apoſtolick Faith,</hi> but never found any other Rock then <hi>It,</hi> againſt which they ſplit themſelves. And thus we know <hi>it</hi> to be that kingdom of which <hi>Da<g ref="char:EOLhyphen"/>niel</hi> Propheſieth, ſaying,<note place="margin">
+                     <hi>Dan.</hi> 2.44.</note> 
+                  <hi>And in the Dayes of theſe Kings ſhall the God of Heaven ſet up a kingdom, which ſhall never be deſtroyed, and this kingdom ſhall not be given to a<g ref="char:EOLhyphen"/>ny other people, but it ſhall break and de<g ref="char:EOLhyphen"/>ſtroy,
+<pb n="32" facs="tcp:97932:18"/>all thoſe kingdoms &amp; ſhall ſtand for e<g ref="char:EOLhyphen"/>ver.</hi> Obſerve therefore I beſeech you out of this Mark that thoſe who pretend to be founders of new Religions, Reformers, or what elſe they pleaſe to be called, were once of this <hi>Apoſtolical continued Faith,</hi> and went out, and forſook <hi>it,</hi> and con<g ref="char:EOLhyphen"/>ſequently their Doctrin is later or leſs Antient,<note place="margin">Math. <hi>14.</hi>
+                  </note> 
+                  <hi>and for this very reaſon not good ſeed, but Cockle, which the envious Man ſoweth after.</hi> For theſe are the Properties of Hereticks and falſe teachers to be inventors of new Doctrin, to divide and ſeparate themſelves, to cauſe diſſen<g ref="char:EOLhyphen"/>tions, &amp; ſcandals againſt the Doctrin they had learned. The <hi>true Faith therefore is Apoſtolical</hi> to be traced up to the Apoſtles, and <hi>Chriſt himſelf</hi> the fountain, and author of all <hi>truth.</hi> Now if you de<g ref="char:EOLhyphen"/>ſire to know in particular the <hi>poſitive tenents</hi> of the <hi>true Catholick Faith</hi> which I find St. <hi>Auguſtin the Monk</hi> of the holy Order of St. <hi>Benedict</hi> preached and profeſſ<g ref="char:EOLhyphen"/>ed, who planted the <hi>Chriſtian Faith</hi> in England above a thouſand yeares ago in the yeare 596. in the reign of <hi>Elbert,</hi> otherwiſe <hi>Ethelbert,</hi> King of Kent who married Queen <hi>Bertha</hi> of France a <hi>Catho<g ref="char:EOLhyphen"/>lick:</hi> ſent by St. <hi>Gregary</hi> the great the<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Pope of Rome: (in that Apoſtolical
+<pb n="33" facs="tcp:97932:18"/>Miſſion) Doctor of the Church, Monk of the ſame holy Order, who founded ſea<g ref="char:EOLhyphen"/>ven Monaſteries himſelf, ſix in Sicilia, the 7th. in Rome dedicated to St. <hi>Andrew,</hi> of which St. <hi>Auguſtin</hi> was Abbot. And in very deed ſearching into Antiquity, and the <hi>Tradition of the Church</hi> (by which the Truth infallibly is delivered to us) I find the very ſame Articles plainly to be traced even to <hi>Chriſt himſelf,</hi> and his immediate ſucceſſor St. <hi>Peter,</hi> and ſo down to us, till this day, and ſhall be till the worlds end viſible and Apparent, which is the ſure Footing for every one to tread in. They are theſe contained in the Profeſſion of Faith, received by the Church, to wit.</p>
+               <p>
+                  <hi>I. N. Do by a firm Faith believe and Profeſs all &amp; every thing contain<g ref="char:EOLhyphen"/>ed in the Symbol of Faith, which the Holy</hi> Roman <hi>Church uſeth, viz.</hi>
+               </p>
+               <p>I believe in one God the Father Almighty, Maker of heaven and Earth, and of all things Viſible and inviſible: And in One Lord Jeſus
+<pb n="34" facs="tcp:97932:19"/>Chriſt, the onely begotte<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Son of God, and begotten o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> his Father before all Ages<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> God of God, Light of Light<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> very God of very God; be<g ref="char:EOLhyphen"/>gotten, not made, Conſub<g ref="char:EOLhyphen"/>ſtantial to the Father by whom all things were made<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> who for us men and for ou<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſalvation deſcended from hea<g ref="char:EOLhyphen"/>ven, and was incarnated by the holy Ghoſt, of the Virgin Mary, and made Man; was alſo crucifyed for us under Ponti<g ref="char:EOLunhyphen"/>us Pilat, ſuffered, and was bu<g ref="char:EOLhyphen"/>ried; and roſe the third day according to the Scriptures<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> and aſcended into Heaven<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſitteth at the right hand o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb n="35" facs="tcp:97932:19"/>the Father; and ſhall come a<g ref="char:EOLhyphen"/>gain with Glory to judge the quick, and the dead; of whoſe Kingdom there ſhall be no End: And in the Holy Ghoſt, the Lord and giver of <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ife, who proceedeth from <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he Father and Son; who to<g ref="char:EOLhyphen"/>gether with the Father, and <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he Son is equally adored and <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>onglorified, who ſpake by <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he Prophets; And One Ho<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y Catholick, and Apoſtolick Church. I confeſs one Bap<g ref="char:EOLhyphen"/>tiſme for the Remiſſion of <gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ns, and I expect the reſu<g ref="char:EOLhyphen"/>rrection of the dead, and life <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>f the world to come. Amen.</p>
+               <p>The Apoſtolical and Ec<g ref="char:EOLhyphen"/>cleſiaſtical
+<pb n="36" facs="tcp:97932:20"/>Traditions, and the other Obſervations, and Conſtitutions of the ſam<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Church, I do moſt firmly admit, and embrace.</p>
+               <p>Likewiſe I admit the Ho<g ref="char:EOLunhyphen"/>ly Scripture according to that ſenſe which our holy Mothe<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> the Catholick Church eve<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> did and doth hold, to which it belongs to judge of the tru<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſenſe, and interpretation o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> the Holy Scriptures, neithe<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> will I receive or interpre<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> it, but according to th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> unanimous Conſent of th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Fathers.</p>
+               <p>I profeſs alſo that there a<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> Seaven true and proper Sacra<g ref="char:EOLhyphen"/>ments
+<pb n="37" facs="tcp:97932:20"/>of the new Law inſti<g ref="char:EOLhyphen"/>tuted by our Lord Jeſus Chriſt, and neceſſary to the ſalvation of Mankind, though not all to every particular Perſon, To wit, Baptiſm, Confirmation, the Euchariſt, Pen-nance, Extream Unction, [holy] Order, &amp; Matrimony; And that they do confer Grace, &amp; of theſe that Baptiſm, Confirmation, and Order, without Sacrilege cannot be reiterated. The received and approved rites alſo of the Ca<g ref="char:EOLhyphen"/>tholick Church in the ſolemn Adminiſtration of all the fore<g ref="char:EOLhyphen"/>ſaid Sacraments I do receive &amp; admit.</p>
+               <pb n="38" facs="tcp:97932:21"/>
+               <p>I do embrace and receive all and every one of the Doct<g ref="char:EOLhyphen"/>rines touching original Sin and Juſtification, which have been defined and declared in the Holy Council of Trent.</p>
+               <p>I do in like manner profeſs that there is a true proper and Propitiatory Sacrifice for the living and the dead offered to God in the Maſs by lawful Prieſts truly ordained. And that in the moſt holy Sacra<g ref="char:EOLhyphen"/>ment of the Euchariſt after Conſecration there is truly, really, and ſubſtantially the body and blood, together with the ſoul and Divinity of our Lord Jeſus Chriſt: And that
+<pb n="39" facs="tcp:97932:21"/>the whole ſubſtance of Bread is converted into the Body of Chriſt, and the whole ſub<g ref="char:EOLhyphen"/>ſtance of Wine into his Blood; Which Converſion the Catholique Church calls Tranſubſtantiation. I acknow<g ref="char:EOLhyphen"/>ledg likewiſe that under One only form all and entire Chriſt and a true Sacrament is re<g ref="char:EOLhyphen"/>ceived.</p>
+               <p>I do conſtantly hold there is a Purgatory, and that the ſouls there detayned are holpen by the Prayers and ſuffrages of the faithful.</p>
+               <p>In like manner that the Saints raigning with Chriſt are to be venerated and invo<g ref="char:EOLhyphen"/>ked, and that they offer up
+<pb n="40" facs="tcp:97932:22"/>Prayers to God for us, and that their Reliques are to be reverenced.</p>
+               <p>I do moſt conſtantly affirm that the Images of Chriſt, of the Virgin mother of God, and of other Saints, are to be kept, and had in due honour, and Veneration: That the power alſo of Indulgences was left by Chriſt in his Church; and the right uſe of them to be wholſom and profitable to Chriſtian People.</p>
+               <p>I do acknowledge that the Holy Catholick and Apoſto<g ref="char:EOLhyphen"/>lick Roman Church is the Mother and Miſtriſs of all Churches: And I do promiſe
+<pb n="41" facs="tcp:97932:22"/>true Obedience to the Biſhop of Rome the Succeſſor of St. Peter Prince of the Apoſtles and Vicar of Jeſus Chriſt.</p>
+               <p>This was the Conſtant <hi>Profeſſion of Faith</hi> in thoſe dayes by St. <hi>Auguſtin</hi> and all his diſciples.<note place="margin">Venerable Bedes Hiſt<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:EOLunhyphen"/>ry ſet forth by Docter Tho. Stapl<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:EOLunhyphen"/>ton and Pr<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:EOLunhyphen"/>ſented to Queen E<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                     <g ref="char:EOLunhyphen"/>zabeth in the Yeare. <hi>1565.</hi> And For Further proof read <gap reason="illegible" resp="#MURP" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Book Call<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> Englands <gap reason="illegible" resp="#MURP" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> old Religio<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> ſet forth by H. B. Printed at Antwerpe. <hi>1659.</hi>
+                  </note> Now that you may not think I impoſe upon St. <hi>Auguſtin</hi> read the Hiſtory of England written by <hi>Vene<g ref="char:EOLhyphen"/>rable Bede</hi> 800. Yeares ago, and other moſt authentik Hiſtories. St. <hi>Auguſtins</hi> very letter to Pope <hi>Gregory</hi> before men<g ref="char:EOLhyphen"/>tioned acknowledging Him cheif Paſtor, ruled by Him as head and Chief. His life practiſe and Converſation holding forth both by word, and Example, all and every Article of <hi>Faith</hi> aforeſaid, dai<g ref="char:EOLhyphen"/>ly ſacrificing, and offering up the Holy Maſſe even in the ſame manner as now it is, praying to the Saints, and for the dead, adminiſtring the Sacraments, in a word doing all the Catholick Church doth now at this Day, and ever ſhall. For as I have often ſaid, and ſay it again, There can be no new Article of <hi>Faith.</hi> The Articles are alwaies, and ever will be the ſame.</p>
+               <pb n="42" facs="tcp:97932:23"/>
+               <p>Methinks I heare ſome Murmur, and mutter, <label type="milestone">
+                     <seg type="milestoneunit">Objection. </seg>
+                  </label> ſaying, this diſcourſe tends plain<g ref="char:EOLhyphen"/>ly to Popery, and the introducing there<g ref="char:EOLhyphen"/>of. To which anſwer is already, <label type="milestone">
+                     <seg type="milestoneunit">Anſwer. </seg>
+                  </label> clearly &amp; plainly made with this diſtinction. If they mean by Popery the ancient true <hi>Catho<g ref="char:EOLhyphen"/>lick, Apoſtolick Chriſtian faith,</hi> ſuch as <hi>Chriſt and his Apoſtles</hi> planted, and taught, and continueth from <hi>Chriſt</hi> to this hour, and ever ſhall; as is here ſet down, That is to ſay again, &amp; again a <hi>Truth</hi> never too oftento be repeated, The <hi>Chriſtian Religi<g ref="char:EOLhyphen"/>on planted by Christ, and his Apoſtles</hi> (as is here ſet down) <hi>derived by infallible Authority of Tradition down to us with<g ref="char:EOLhyphen"/>out</hi> Addition, or diminution: Then in Gods name let ſuch Popery be introdu<g ref="char:EOLhyphen"/>ced every where (if that be Popery) to the Glory of <hi>God,</hi> and ſalvation of all Mens Souls. But if you mean by Popery, Superſtition, Idolatry, and that the Pope is infallible in his Perſon, That he hath power to depoſe Kings, and over temporal poſſeſſions: I would have no ſuch Popery introduced, I defy! and abhorr it knowing it to be novelty and the invention of Men. I am none of that Company, gang, or Crew, I am I hope a good Chriſtian, and Loyal ſub<g ref="char:EOLhyphen"/>ject. I acknowledge the Pope chief
+<pb n="43" facs="tcp:97932:23"/>Paſtor, Succeſſor of St. <hi>Peter,</hi> ſupream head of the Church, to whom all owe Obedience, and Subjection in ſpiritual things, and from whom as from the Fountain all ſpiritual Juriſdiction is deri<g ref="char:EOLhyphen"/>ved. But as St. <hi>Bernard</hi> obſerves well: <hi>His Power is over the Sins of the People not over the Poſſeſſions of the Earth.</hi>
+                  <note place="margin">
+                     <hi>Math.</hi> 22.21.</note> 
+                  <hi>Give to Caeſar what is Caeſers, to God what is Gods</hi> And here I leave you. and if this be not ſufficient to ſatisfy any indif<g ref="char:EOLhyphen"/>ferent man ſeeking the Truth of Religion, let their own Conſcience be judge, which will give Teſtimony againſt them in that day when <hi>Jeruſalem ſhall be ſearched with Lanthorns and the Hearts of all made known and manifeſt,</hi>
+                  <note place="margin">
+                     <hi>Sopho.</hi> 1.12.</note> and the veil of Hypo<g ref="char:EOLhyphen"/>criſy and vain Fancy taken away from the Face of the pretended Saints.</p>
+            </div>
+         </div>
+         <div type="prayer">
+            <pb n="44" facs="tcp:97932:24"/>
+            <head>A Prayer.</head>
+            <p>
+               <hi>O</hi> Our Lord God, moſt humbly pro<g ref="char:EOLhyphen"/>ſtrate at thy feet, in this perillo<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> time we moſt heartily ſupplicate thy di<g ref="char:EOLhyphen"/>vine Majeſty as thou deſireſt not the Death but repentance of ſinners be propitious <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> thy People returning to Thee that the<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> remaining devout to thee, Thou mai'<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> mercifully remove the ſcourge of thy Anger<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> and abſolve us from all Errors whereby w<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſhall be delivered from the Perditio<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> which hangs over us. Through our Lor<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Jeſus Chriſt.</p>
+            <p>
+               <hi>AMEN. AMEN. AMEN.</hi>
+            </p>
+         </div>
+         <div type="epigraph">
+            <pb n="45" facs="tcp:97932:24"/>
+            <head>
+               <hi>Ezec.</hi> 16.55.</head>
+            <p>
+               <hi>Et tu, &amp; filia tua rever<g ref="char:EOLhyphen"/>timini ad Antiquitatem ve<g ref="char:EOLhyphen"/>ſtram.</hi>
+            </p>
+            <p>And thou, and thy Daugh<g ref="char:EOLhyphen"/>ters ſhall return to your An<g ref="char:EOLhyphen"/>tiquity.</p>
+            <p>
+               <hi>Errare poſſum, haereticus eſſe nolo.</hi>
+            </p>
+            <p>Err I may, a Heretick I will not be.</p>
+            <p>ECCLESIAE JUDICIO SUBIECTA SUNTO.</p>
+            <closer>
+               <signed>B. P. S.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
